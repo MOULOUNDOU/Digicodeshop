@@ -1,0 +1,218 @@
+*{ 
+margin: 0;
+padding: 0;
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+     background-color: rgb(2, 7, 78);
+     color: white;
+     padding: 5px;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    position: relative;
+    right: 10%;
+}
+
+.logo img{
+    width: 40%;
+    height: 6vh;
+    border-radius: 30px;
+}
+
+.logo span{
+    color: rgb(222, 74, 5);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.marquee-image img{
+    width: 40%;
+    height: 10vh;
+    justify-content: space-between;
+    transition: ease-in-out 2s;
+    
+}
+
+.marquee-image img:hover{
+transform: scaleX(1.1);
+}
+.Marquee-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.marquee-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 12%;
+    box-shadow: 0px 0px 30px rgb(217, 217, 217);
+    border-radius: 10px;
+    gap: 5%;
+  
+}
+
+.section1{
+    background-color: gainsboro;
+    margin: 10px;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.Slogant{
+    background-color: rgb(2, 2, 74);
+    height: 55vh;
+    display: flex;
+ border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+   gap: 10%; 
+}
+
+.Slogant img{
+    width: 100%;
+}
+.div-slogant{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    font-size: 20px;
+    gap: 10%;
+}
+
+.contact a{
+   text-decoration: none; 
+   border: 1px solid white;
+   padding: 5px;
+   color: white;
+   border-radius: 20px;
+margin: 10px;
+font-size: 15px;
+}
+.contact #btn2{
+    background-color: rgb(190, 70, 5);
+}
+
+
+
+.section2{
+    height: 50vh;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 15px;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+   border-radius: 20px;
+
+}
+
+.Produit-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.card-produit{
+    box-shadow: 0px 0px 15px rgb(217, 217, 217);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+    
+}
+.card-produit p{
+color: rgb(124, 122, 120);
+}
+.card-produit h4{
+    color: brown;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bold;
+}
+.card-produit img{
+width: 100%;
+border-radius: 8px;
+transition: ease-in-out 0.5s;
+}
+
+.card-produit img:hover{
+    transform: scale(1.1);
+
+}
+
+.prix{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-circle-plus{
+    color: blue;
+}
+
+.fa-heart{
+    color: rgb(19, 5, 202);
+}
+
+.panier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+  
+ border-radius: 20px;
+}
